@@ -214,5 +214,7 @@ arrange(UECCi,Score  )
 # Chunks Options:
 
 In this document we use two options of configurations, the first is {r results='Hide'}
+This configuration allows us to evaluate the code but does not show its output
 
 The Second is {r results='hold'}
+the results="hold" option means to "hold all the output pieces and push them to the end of a chunk"
