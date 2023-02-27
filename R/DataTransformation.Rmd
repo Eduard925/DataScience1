@@ -207,4 +207,12 @@ UECCi <- data.frame(
 )
 arrange(UECCi,Score  )
 ```
+>[!NOTE]
+   >
+   > In this case we have created a dataframe, The arrange function allows us to organize our data by receiving the desired variable as a parameter and in ascending order.
 
+# Chunks Options:
+
+In this document we use two options of configurations, the first is {r results='Hide'}
+
+The Second is {r results='hold'}
