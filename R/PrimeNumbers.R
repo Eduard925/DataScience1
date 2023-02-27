@@ -15,3 +15,7 @@ for (i in 1:100) {
     print(i)
   }
 }
+binary_to_hex <- function(binary_number) {
+  hex_number <- sprintf("%X", as.integer(binary_number, base = 2))
+  return(hex_number)
+}

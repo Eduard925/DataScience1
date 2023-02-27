@@ -12,7 +12,6 @@
 #'
 #' #Returns "5D1"
 #'
-#' #' @export
 #'
 bintohex <- function(binary){
   hex<- sprintf("%X", as.integer(bin, base =2))
